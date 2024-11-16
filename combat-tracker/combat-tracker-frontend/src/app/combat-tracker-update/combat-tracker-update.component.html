@@ -32,5 +32,10 @@
     name="health"
     required
   />
-  <button type="submit">Update Entry</button>
+  <button
+    type="submit"
+    [disabled]="!entry.characterName?.trim()"
+  >
+    Update Entry
+  </button>
 </form>

@@ -4,8 +4,9 @@ import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
+
 @Entity
-public class CombatTrackerEntry {
+public class CombatTrackerEntry extends BaseEntity{
 
 
     @Id
