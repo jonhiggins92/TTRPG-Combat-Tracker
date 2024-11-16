@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/combat-tracker")
@@ -46,4 +47,12 @@ public class CombatTrackerController {
     public void deleteEntry(@PathVariable Long id) {
         repository.deleteById(id);
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<CombatTrackerEntry> getEntryById(@PathVariable Long id) {
+        Optional<CombatTrackerEntry> entry = repository.findById(id);
+        return entry.map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
+
 }

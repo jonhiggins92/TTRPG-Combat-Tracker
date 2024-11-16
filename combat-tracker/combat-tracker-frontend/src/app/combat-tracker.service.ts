@@ -27,4 +27,9 @@ export class CombatTrackerService {
     deleteEntry(id: number): Observable<void> {
         return this.http.delete<void>(`${this.apiUrl}/${id}`);
     }
+
+    getEntryById(id: number): Observable<CombatTrackerEntry> {
+        return this.http.get<CombatTrackerEntry>(`${this.apiUrl}/${id}`);
+    }
+
 }

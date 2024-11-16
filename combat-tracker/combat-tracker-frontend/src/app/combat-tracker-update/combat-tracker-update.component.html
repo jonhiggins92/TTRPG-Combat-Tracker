@@ -1,0 +1,36 @@
+<h1>Update Combat Tracker Entry</h1>
+<form (ngSubmit)="updateEntry()">
+  <label for="characterName">Character Name:</label>
+  <input
+    type="text"
+    id="characterName"
+    [(ngModel)]="entry.characterName"
+    name="characterName"
+    required
+  />
+  <label for="playerName">Player Name:</label>
+  <input
+    type="text"
+    id="playerName"
+    [(ngModel)]="entry.playerName"
+    name="playerName"
+    required
+  />
+  <label for="initiative">Initiative:</label>
+  <input
+    type="number"
+    id="initiative"
+    [(ngModel)]="entry.initiative"
+    name="initiative"
+    required
+  />
+  <label for="health">Health:</label>
+  <input
+    type="number"
+    id="health"
+    [(ngModel)]="entry.health"
+    name="health"
+    required
+  />
+  <button type="submit">Update Entry</button>
+</form>
