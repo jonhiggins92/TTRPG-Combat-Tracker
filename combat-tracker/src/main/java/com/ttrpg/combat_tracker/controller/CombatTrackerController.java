@@ -5,11 +5,13 @@ import com.ttrpg.combat_tracker.repository.CombatTrackerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/combat-tracker")
+@CrossOrigin(origins = "http://localhost:4200") // Allow frontend to communicate
 public class CombatTrackerController {
 
     @Autowired

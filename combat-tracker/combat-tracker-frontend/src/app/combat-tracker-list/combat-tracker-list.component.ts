@@ -20,6 +20,21 @@ export class CombatTrackerListComponent implements OnInit {
     this.fetchEntries();
   }
 
+  deleteEntry(id: number | undefined): void {
+    if (id !== undefined) {
+      this.combatTrackerService.deleteEntry(id).subscribe(
+          () => {
+            this.entries = this.entries.filter(entry => entry.id !== id);
+          },
+          (error) => {
+            console.error('Error deleting entry', error);
+          }
+      );
+    }
+  }
+
+
+
   fetchEntries(): void {
     this.combatTrackerService.getEntries().subscribe(
         (data: CombatTrackerEntry[]) => {
