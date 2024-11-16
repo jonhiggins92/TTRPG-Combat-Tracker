@@ -32,4 +32,9 @@ export class CombatTrackerService {
         return this.http.get<CombatTrackerEntry>(`${this.apiUrl}/${id}`);
     }
 
+    searchEntries(query: string): Observable<CombatTrackerEntry[]> {
+        return this.http.get<CombatTrackerEntry[]>(`${this.apiUrl}/search?query=${query}`);
+    }
+
+
 }

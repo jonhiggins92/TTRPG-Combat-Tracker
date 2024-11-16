@@ -1,0 +1,23 @@
+<button (click)="exportToCSV()" class="btn btn-success">Export Report</button>
+
+<h2>Combat Tracker Report</h2>
+<table>
+  <thead>
+  <tr>
+    <th>Character Name</th>
+    <th>Player Name</th>
+    <th>Initiative</th>
+    <th>Health</th>
+    <th>Timestamp</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let entry of reportData">
+    <td>{{ entry.characterName }}</td>
+    <td>{{ entry.playerName }}</td>
+    <td>{{ entry.initiative }}</td>
+    <td>{{ entry.health }}</td>
+    <td>{{ entry.timestamp }}</td>
+  </tr>
+  </tbody>
+</table>

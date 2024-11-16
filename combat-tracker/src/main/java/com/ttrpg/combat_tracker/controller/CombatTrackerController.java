@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/combat-tracker")
@@ -54,5 +55,19 @@ public class CombatTrackerController {
         return entry.map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
+
+    @GetMapping("/search")
+    public List<CombatTrackerEntry> searchEntries(@RequestParam String query) {
+        return repository.findAll().stream()
+                .filter(entry -> entry.getCharacterName().contains(query) ||
+                        entry.getPlayerName().contains(query))
+                .collect(Collectors.toList());
+    }
+
+    @GetMapping("/report")
+    public List<CombatTrackerEntry> generateReport() {
+        return repository.findAll();
+    }
+
 
 }

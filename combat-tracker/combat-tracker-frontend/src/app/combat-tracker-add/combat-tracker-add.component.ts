@@ -14,7 +14,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./combat-tracker-add.component.css']
 })
 export class CombatTrackerAddComponent {
-  newEntry: CombatTrackerEntry = new CombatTrackerEntry('', '', 0, 0);
+  newEntry: CombatTrackerEntry = new CombatTrackerEntry('', '', 0, 0, new Date().toISOString());
 
   constructor(private combatTrackerService: CombatTrackerService, public router: Router) {}
 

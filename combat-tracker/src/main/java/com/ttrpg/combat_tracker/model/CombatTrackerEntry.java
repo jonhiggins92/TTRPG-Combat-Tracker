@@ -1,9 +1,8 @@
 package com.ttrpg.combat_tracker.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
+import java.time.LocalDateTime;
 
 @Entity
 public class CombatTrackerEntry {
@@ -17,6 +16,7 @@ public class CombatTrackerEntry {
     private String playerName;
     private int initiative;
     private int health;
+    private LocalDateTime timestamp;
 
     // Getters and setters
 
@@ -58,5 +58,18 @@ public class CombatTrackerEntry {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @PrePersist
+    public void onCreate() {
+        this.timestamp = LocalDateTime.now();
+    }
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
     }
 }

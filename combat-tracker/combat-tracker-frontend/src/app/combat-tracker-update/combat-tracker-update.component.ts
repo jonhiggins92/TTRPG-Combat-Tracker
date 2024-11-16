@@ -16,7 +16,7 @@ import {FormsModule} from "@angular/forms";
 })
 export class CombatTrackerUpdateComponent implements OnInit {
   entryId: number | null = null;
-  entry: CombatTrackerEntry = new CombatTrackerEntry('', '', 0, 0);
+  entry: CombatTrackerEntry = new CombatTrackerEntry('', '', 0, 0, new Date().toISOString());
 
   constructor(
     private combatTrackerService: CombatTrackerService,
