@@ -8,7 +8,8 @@ import { CombatTrackerEntry } from './combat-tracker-entry.model';
 })
 export class CombatTrackerService {
 
-    private apiUrl = 'http://localhost:8080/api/combat-tracker';  // Backend API URL
+  private apiUrl = 'http://localhost:8080/api' // Use the Docker Compose service name
+  // Backend API URL
 
     constructor(private http: HttpClient) { }
 

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecb66594-86e8-4c03-90a4-0ae5e4001f86" name="Changes" comment="&quot;Enforced character name validation on the frontend for add and update forms to prevent empty strings.&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile.backend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/combat-tracker-frontend/Dockerfile.frontend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combat-tracker-frontend/src/app/combat-tracker.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/combat-tracker-frontend/src/app/combat-tracker.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combat_tracker.db" beforeDir="false" afterPath="$PROJECT_DIR$/backend/combat_tracker.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/CombatTrackerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/CombatTrackerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/controller/CombatTrackerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/controller/CombatTrackerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/controller/TestEntityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/controller/TestEntityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/model/CombatTrackerEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/model/CombatTrackerEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/model/TestEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/model/TestEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/repository/CombatTrackerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/repository/CombatTrackerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ttrpg/combat_tracker/repository/TestEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ttrpg/combat_tracker/repository/TestEntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ttrpg/combat_tracker/CombatTrackerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/ttrpg/combat_tracker/CombatTrackerApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;jhig119&quot;,
+      &quot;fullname&quot;: &quot;Jonathan Higgins&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/wgu-gitlab-environment/student-repos/jhig119/d424-software-engineering-capstone.git&quot;,
+    &quot;second&quot;: &quot;c1249809-6f41-40f8-9628-4a2fc270378f&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ouHkDeXeOM3StSBVZqThpnO4YM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CombatTrackerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;working__branch&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonhi/IdeaProjects/d424-software-engineering-capstone/combat-tracker/src/main/resources/static&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\jonhi\\IdeaProjects\\d424-software-engineering-capstone\\combat-tracker\\combat-tracker-frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonhi\IdeaProjects\d424-software-engineering-capstone\combat-tracker\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonhi\IdeaProjects\d424-software-engineering-capstone\combat-tracker\backend" />
+      <recent name="C:\Users\jonhi\IdeaProjects\d424-software-engineering-capstone\combat-tracker\src\main\resources\static\combat-tracker-frontend" />
+      <recent name="C:\Users\jonhi\IdeaProjects\d424-software-engineering-capstone\combat-tracker\combat-tracker-frontend\src\app\combat-tracker-add" />
+      <recent name="C:\Users\jonhi\IdeaProjects\d424-software-engineering-capstone\combat-tracker\combat-tracker-frontend\src\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CombatTrackerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="combat-tracker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ttrpg.combat_tracker.CombatTrackerApplication" />
+      <option name="VM_PARAMETERS" value="--enable-preview " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecb66594-86e8-4c03-90a4-0ae5e4001f86" name="Changes" comment="" />
+      <created>1731712681934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731712681934</updated>
+      <workItem from="1731712682956" duration="2705000" />
+      <workItem from="1731715398085" duration="25937000" />
+      <workItem from="1731780103853" duration="6669000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added CRUD functionality for CombatTrackerEntry with proper API testing">
+      <option name="closed" value="true" />
+      <created>1731718175321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731718175321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;Add functional navigation bar and routes for Combat Tracker List and Add Entry pages&quot;">
+      <option name="closed" value="true" />
+      <created>1731728629501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731728629501</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implemented update functionality and verified all CRUD operations">
+      <option name="closed" value="true" />
+      <created>1731731527588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731731527588</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Report Generation and timestamps">
+      <option name="closed" value="true" />
+      <created>1731772334711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731772334711</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added basic CSS styling for improved UI aesthetics and updated navbar background for better readability">
+      <option name="closed" value="true" />
+      <created>1731775288755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731775288755</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;Enforced character name validation on the frontend for add and update forms to prevent empty strings.&quot;">
+      <option name="closed" value="true" />
+      <created>1731776295818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731776295818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added CRUD functionality for CombatTrackerEntry with proper API testing" />
+    <MESSAGE value="&quot;Add functional navigation bar and routes for Combat Tracker List and Add Entry pages&quot;" />
+    <MESSAGE value="Implemented update functionality and verified all CRUD operations" />
+    <MESSAGE value="Added Report Generation and timestamps" />
+    <MESSAGE value="Added basic CSS styling for improved UI aesthetics and updated navbar background for better readability" />
+    <MESSAGE value="&quot;Enforced character name validation on the frontend for add and update forms to prevent empty strings.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Enforced character name validation on the frontend for add and update forms to prevent empty strings.&quot;" />
+  </component>
+</project>

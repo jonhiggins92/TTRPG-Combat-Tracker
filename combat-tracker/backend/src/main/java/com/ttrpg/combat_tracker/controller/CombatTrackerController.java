@@ -12,8 +12,8 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/api/combat-tracker")
-@CrossOrigin(origins = "http://localhost:4200") // Allow frontend to communicate
+@RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost") // Allow frontend to communicate
 public class CombatTrackerController {
 
     @Autowired

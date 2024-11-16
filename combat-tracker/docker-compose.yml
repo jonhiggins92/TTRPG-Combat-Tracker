@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8080:8080"
+    networks:
+      - combat-network
+
+  frontend:
+    build:
+      context: ./combat-tracker-frontend
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "80:80"
+    networks:
+      - combat-network
+
+networks:
+  combat-network:
