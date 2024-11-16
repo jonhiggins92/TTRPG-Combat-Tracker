@@ -1,0 +1,10 @@
+<div class="combat-tracker-list">
+    <h1>Combat Tracker Entries</h1>
+    <ul>
+        <li *ngFor="let entry of entries">
+            <h2>{{ entry.characterName }} - {{ entry.playerName }}</h2>
+            <p>Initiative: {{ entry.initiative }}</p>
+            <p>Health: {{ entry.health }}</p>
+        </li>
+    </ul>
+</div>
