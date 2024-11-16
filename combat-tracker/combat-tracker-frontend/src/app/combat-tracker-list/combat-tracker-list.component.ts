@@ -71,5 +71,8 @@ export class CombatTrackerListComponent implements OnInit {
         this.router.navigate(['/report']);
     }
 
+    sortByInitiative(): void {
+        this.entries.sort((a, b) => b.initiative - a.initiative);
+    }
 
 }
