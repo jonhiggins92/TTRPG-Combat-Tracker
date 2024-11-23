@@ -1,29 +1,32 @@
-<strong>**DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. **</strong>
+TTRPG Combat Tracker
 
-# WESTERN GOVERNORS UNIVERSITY 
-## D424 – SOFTWARE ENGINEERING CAPSTONE
-Welcome to Software Engineering Capstone! This is an opportunity for students to develop full stack software engineering documentation and applications. They will execute documentation, unit testing, revision of software applications, and deploy software applications with scripts and containers on a cloud platform.
+Overview
+The TTRPG Combat Tracker is a specialized web application designed to enhance tabletop role-playing games by providing a dynamic and intuitive way to manage combat sequences. This tool assists game masters and players alike by streamlining the tracking of initiatives, health, and conditions of characters and NPCs during game sessions.
 
-FOR SPECIFIC TASK INSTRUCTIONS AND REQUIREMENTS FOR THIS ASSESSMENT, PLEASE REFER TO THE COURSE PAGE.
-BASIC INSTRUCTIONS
-For this assessment, you will deploy your developed full stack software product to a web service of your choice.
+Features
+Combat Management: Facilitates the organization of combat order and player/NPC status, ensuring a smooth flow of gameplay.
+Initiative Tracking: Automatically tracks and updates the order of turns, helping maintain the pace of combat.
+Health Monitoring: Allows for real-time updates to character and NPC health, providing clear visibility into the state of the game.
 
+Getting Started
+To start using the TTRPG Combat Tracker, clone the project to your local machine:
 
-## SUPPLEMENTAL RESOURCES  
-1.	How to clone a project to IntelliJ using Git?
+Ensure Git is installed on your system.
+Use IntelliJ or your preferred IDE to clone the repository. Use the 'IntelliJ IDEA (HTTPS)' option if available.
+Save the project in a safe location and enter your credentials when prompted to complete the cloning process.
+Development
+To create a new branch for development:
 
-> Ensure that you have Git installed on your system and that IntelliJ is installed using [Toolbox](https://www.jetbrains.com/toolbox-app/). Make sure that you are using version 2022.3.2. Once this has been confirmed, click the clone button and use the 'IntelliJ IDEA (HTTPS)' button. This will open IntelliJ with a prompt to clone the proejct. Save it in a safe location for the directory and press clone. IntelliJ will prompt you for your credentials. Enter in your WGU Credentials and the project will be cloned onto your local machine.  
+GitLab method:
+Click the '+' button near your branch name on GitLab.
+Select 'New branch', name your branch, and then select 'Create Branch'.
+IntelliJ method:
+Go to the 'Git' button on the top toolbar in IntelliJ.
+Select 'New branch', ensure 'checkout branch' is selected, create your branch, add a commit message, and push the branch to the repository.
+Support
+For any issues or questions, please refer to the GitHub repository's issue tracker or documentation.
 
-2. How to create a branch and start Development?
+Future Enhancements
+The TTRPG Combat Tracker is continuously evolving, with plans for future features that will further enhance user experience and game management capabilities. Your feedback and contributions are welcome to help improve and expand this tool.
 
-- GitLab method
-> Press the '+' button located near your branch name. In the dropdown list, press the 'New branch' button. This will allow you to create a name for your branch. Once the branch has been named, you can select 'Create Branch' to push the branch to your repository.
-
-- IntelliJ method
-> In IntelliJ, Go to the 'Git' button on the top toolbar. Select the new branch option and create a name for the branch. Make sure checkout branch is selected and press create. You can now add a commit message and push the new branch to the local repo.
-
-## SUPPORT
-If you need additional support, please navigate to the course page and reach out to your course instructor.
-
-## FUTURE USE
-Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
+Feel free to fork this repository and adapt the TTRPG Combat Tracker for your personal projects or to contribute to its development.
